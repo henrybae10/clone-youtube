@@ -1,0 +1,21 @@
+{
+	"name": "clone-youtube",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon --exec babel-node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.19.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.24.5",
+		"@babel/node": "^7.23.9",
+		"@babel/preset-env": "^7.24.5",
+		"nodemon": "^3.1.0"
+	}
+}
